@@ -144,9 +144,9 @@ html {
   font-size: 3rem;
 }
 
-/* .tittle .saludo-emote {
-  font-size: 2.5rem;
-} */
+.tittle .saludo-emote {
+  font-style: italic;
+}
 
 .emote {
   font-size: 2.7rem;
@@ -506,7 +506,7 @@ hr{
     background: #ddd;
     background-image: var(--gradient);
     background-size: 400%;
-    animation: fondo-anim 12s ease infinite alternate;
+    animation: fondo-anim 20s ease infinite alternate;
     color: #fff
   }
   /*  */
@@ -610,6 +610,7 @@ hr{
 
   .tittle .saludo-emote {
     font-size: 2.5rem;
+    margin-bottom: .5rem;
   }
   
   .emote {
