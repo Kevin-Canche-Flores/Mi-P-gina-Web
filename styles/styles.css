@@ -26,9 +26,9 @@ html {
   scroll-behavior: smooth;
   background: #ddd;
   background-image: var(--gradient2);
-  background-size: 400%;
-  animation: fondo-anim 20s infinite alternate;
-  color: #fff
+  background-size: 500%;
+  animation: fondo-anim 20s ease infinite alternate;
+  color: #fff;
 }
 
 .navigator {
